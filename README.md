@@ -12,10 +12,13 @@ A small React + Tailwind CSS application that lists Star Wars characters fetched
 * Fetches data from SWAPI (Star Wars API).
 * Displays characters as responsive cards.
 * Clicking a card opens a modal showing:
-  * Name
-  * Height
-  * Gender
-  * Birth Year
+  * Name (as header)
+  * Height (in meters)
+  * Mass (in kg)
+  * Date added (formatted as dd-MM-yyyy)
+  * Number of films the person appears in
+  * Birth year
+  * Homeworld details: name, terrain, climate, and population
 * Includes a loading indicator while fetching data.
 * Combined Search + Filter: Support combined filtering and searching.
 
